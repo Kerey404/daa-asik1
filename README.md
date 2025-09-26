@@ -50,3 +50,9 @@ We measured:
 
 ### Running CLI to generate CSV
 The CLI outputs lines in the format:  
+<img width="871" height="611" alt="image" src="https://github.com/user-attachments/assets/76d08552-eed8-4c7f-9b0a-b9985b615801" />
+<img width="822" height="633" alt="image" src="https://github.com/user-attachments/assets/8d8ab7d8-e886-4b13-b060-0f0c6ccd28f9" />
+<img width="835" height="596" alt="image" src="https://github.com/user-attachments/assets/673b38f7-5665-4dd2-a249-0e9d7dbcb42e" />
+
+
+
