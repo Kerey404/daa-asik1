@@ -68,7 +68,6 @@ public class ClosestPair {
         return Math.sqrt(dx * dx + dy * dy);
     }
 
-    // Вспомогательный класс точки
     public static class Point {
         public final double x, y;
         public Point(double x, double y) {
