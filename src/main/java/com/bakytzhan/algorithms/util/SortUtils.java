@@ -1,9 +1,8 @@
 package com.bakytzhan.algorithms.util;
 
-import java.util.Random;
+import com.bakytzhan.algorithms.util.Metrics;
 
 public class SortUtils {
-    private static final Random random = new Random();
 
 
     public static void swap(int[] arr, int i, int j) {
@@ -13,10 +12,10 @@ public class SortUtils {
     }
 
 
-    public static int partition(int[] arr, int left, int right, int pivot, Metrics m) {
+    public static int partition(int[] arr, int left, int right, int pivot, Metrics metrics) {
         int i = left;
         for (int j = left; j < right; j++) {
-            m.incrementComparisons();
+            metrics.incrementComparisons();
             if (arr[j] <= pivot) {
                 swap(arr, i, j);
                 i++;
@@ -24,18 +23,5 @@ public class SortUtils {
         }
         swap(arr, i, right);
         return i;
-    }
-
-
-    public static void shuffle(int[] arr) {
-        for (int i = arr.length - 1; i > 0; i--) {
-            int j = random.nextInt(i + 1);
-            swap(arr, i, j);
-        }
-    }
-
-
-    public static boolean isEmpty(int[] arr) {
-        return arr == null || arr.length == 0;
     }
 }

@@ -6,7 +6,7 @@ import com.bakytzhan.algorithms.util.SortUtils;
 import java.util.Random;
 
 public class QuickSort {
-    private static final int CUTOFF = 16; // для маленьких массивов используем вставки
+    private static final int CUTOFF = 16;
     private static final Random random = new Random();
 
     public static void sort(int[] arr, Metrics metrics) {
@@ -26,7 +26,6 @@ public class QuickSort {
         SortUtils.swap(arr, pivotIndex, right);
 
         int partitionIndex = SortUtils.partition(arr, left, right, pivot, metrics);
-
 
         if (partitionIndex - left < right - partitionIndex) {
             quickSort(arr, left, partitionIndex - 1, metrics, depth + 1);
