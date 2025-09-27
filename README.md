@@ -1,4 +1,4 @@
-# DAA Assignment 1 — Algorithms & Measurements
+# DAA Assignment 1
 
 Author: Bakytzhan Kassymgali (Kerey404)  
 Repository: `daa-asik1`  
