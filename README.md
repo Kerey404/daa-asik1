@@ -149,14 +149,6 @@ MainCLI → Metrics → [MergeSort, QuickSort, MoMSelect, ClosestPair]
 
 ---
 
-## References
-
-* Cormen, Leiserson, Rivest, Stein — *Introduction to Algorithms*, 4th edition.
-* Knuth, D.E. — *The Art of Computer Programming*, Vol. 3.
-* JMH documentation: [https://openjdk.org/projects/code-tools/jmh/](https://openjdk.org/projects/code-tools/jmh/)
-
----
-
 
 
 
